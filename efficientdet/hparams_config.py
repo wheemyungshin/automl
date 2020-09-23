@@ -443,4 +443,5 @@ def get_detection_config(model_name):
   if model_name.startswith('efficientdet'):
     return get_efficientdet_config(model_name)
   else:
+    print("model name: ", model_name)
     raise ValueError('model name must start with efficientdet.')

@@ -31,7 +31,7 @@ from lxml import etree
 import PIL.Image
 import tensorflow.compat.v1 as tf
 
-from dataset import tfrecord_util
+import tfrecord_util
 
 flags.DEFINE_string('data_dir', '', 'Root directory to raw PASCAL VOC dataset.')
 flags.DEFINE_string('set', 'train', 'Convert training set, validation set or '
